@@ -28,3 +28,52 @@
 ## 🔍 4. Detailed Analysis
 ### 4.1 Traffic Filtering
 Wireshark display filters used:
+
+### 4.2 Findings
+- **Malicious Domains:**
+  - `malicious-site.com`
+- **Suspicious IPs:**
+  - `X.X.X.X`
+- **Transferred Files:**
+  - `invoice.exe` – MD5: `xxxxxxxx`
+
+---
+
+## 📊 5. Statistics
+### Endpoints
+![Endpoints](images/endpoints.png)
+
+### Protocol Hierarchy
+![Protocol Hierarchy](images/protocol_hierarchy.png)
+
+---
+
+## 🛡️ 6. Conclusions
+Example:
+> The captured traffic shows that the compromised host made a DNS query to a malicious domain, downloaded an executable, and established periodic communication with a C2 server. This indicates a malware infection with remote control capabilities.
+
+---
+
+## 📌 7. Indicators of Compromise (IOCs)
+| Type | Value |
+|------|-------|
+| **IP** | X.X.X.X |
+| **Domain** | malicious-site.com |
+| **MD5** | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
+---
+
+## 🚫 8. Recommendations
+- Block identified IPs and domains in firewall/DNS.
+- Scan hosts with updated antivirus/EDR.
+- Review proxy and SIEM logs for additional affected hosts.
+- Provide phishing awareness training to end users.
+
+---
+
+## 📂 9. Attachments
+- [Original PCAP](link-to-pcap)  
+- [Screenshots](./images/)  
+- [PDF Report](report.pdf)
+
+---
