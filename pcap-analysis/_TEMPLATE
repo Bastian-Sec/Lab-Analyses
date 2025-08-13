@@ -1,1 +1,30 @@
 
+# 🛡️ PCAP Analysis – [Case Name]
+
+## 📌 1. Case Information
+- **PCAP File Name:**  
+- **Source:** (e.g., [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/))
+- **Capture Date:**  
+- **Incident Type:** (Phishing, Malware, Botnet, C2, Data Exfiltration, etc.)
+- **Brief Description:**  
+  Example: "Traffic generated after opening a malicious email attachment."
+
+---
+
+## 🛠️ 2. Tools Used
+
+
+---
+
+## 🕒 3. Timeline of Events
+| Time (UTC) | Event |
+|------------|-------|
+| HH:MM:SS   | |
+| HH:MM:SS   | |
+| HH:MM:SS   | |
+
+---
+
+## 🔍 4. Detailed Analysis
+### 4.1 Traffic Filtering
+Wireshark display filters used:
